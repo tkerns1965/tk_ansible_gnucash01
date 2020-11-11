@@ -13,8 +13,3 @@
 - name: Import gnucash tasks
   import_tasks: 02_gnucash.yml
   tags: gnucash
-
-- name: Import vscode tasks
-  import_tasks: 03_vscode.yml
-  tags: vscode
-  
