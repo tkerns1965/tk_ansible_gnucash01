@@ -1,6 +1,6 @@
 ---
-- name: Run gnucash_vscode01 role on local hosts
+- name: Run gnucash01 role on local hosts
   hosts: local
   tasks:
     - import_role:
-        name: gnucash_vscode01
+        name: gnucash01
